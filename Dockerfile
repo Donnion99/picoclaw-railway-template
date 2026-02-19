@@ -1,6 +1,6 @@
 FROM golang:1.25.7-alpine AS builder
 
-RUN apk update && apk add --no-cache ca-certificates git make
+RUN apk add --no-cache git make
 
 WORKDIR /src
 
