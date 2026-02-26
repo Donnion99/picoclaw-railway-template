@@ -94,8 +94,8 @@ def default_config():
             "defaults": {
                 "workspace": "~/.picoclaw/workspace",
                 "restrict_to_workspace": True,
-                "provider": "",
-                "model": "glm-4.7",
+                "provider": "gemini",
+                "model": "gemini-2.5-flash",
                 "max_tokens": 8192,
                 "temperature": 0.7,
                 "max_tool_iterations": 20,
